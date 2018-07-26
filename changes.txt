@@ -1,0 +1,24 @@
+Affected Unity files
+- AccessData.cs
+- CheckLogin.cs
+- ReturnFrameList.cs
+
+Affected PHP files
+- all files in PHP folder
+
+Modification:
+
+1. Change PHP server - only need to change variable "Server" in AccessData.cs, implemented in affected unity files
+
+2. Change Database server - only need to change variable in connect.php, implemented in affected php files
+
+3. Save logged in info in local device to persist login state (playerinfo.dat)
+
+4. Send activation email to user once registered (no time limit)
+
+5. Unable to register with exisiting email/username
+
+
+
+
+
