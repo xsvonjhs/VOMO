@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 72323c6b46ec2464b83b8eb6719c0a45
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Bone
+    100006: Bone.001
+    100008: Bone.002
+    100010: Bone.003
+    100012: Bone.003_end
+    100014: Bone.004
+    100016: Bone.005
+    100018: Bone.005_end
+    100020: Bone.007
+    100022: Bone.009
+    100024: Bone.009_end
+    100026: Bone.011
+    100028: Bone.013
+    100030: Bone.013_end
+    100032: Face
+    100034: Head
+    100036: Left_Cheek
+    100038: Left_Ear
+    100040: Left_Eye_Black
+    100042: Left_Eye_Circle
+    100044: Left_Eye_Down
+    100046: Left_Eye_Ecplise
+    100048: Left_Eye_In
+    100050: Left_Eye_Out
+    100052: Left_Feet
+    100054: Left_Hand
+    100056: Left_Leg
+    100058: Nose
+    100060: P
+    100062: //RootNode
+    100064: Right_Cheek
+    100066: Right_Ear
+    100068: Right_Eye_Black
+    100070: Right_Eye_Circle
+    100072: Right_Eye_Down
+    100074: Right_Eye_Ecplise
+    100076: Right_Eye_In
+    100078: Right_Eye_Out
+    100080: Right_Feet
+    100082: Right_Hand
+    100084: Right_Leg
+    100086: Stomach
+    100088: T
+    100090: Tail
+    100092: Teeth
+    100094: Teeth_Down
+    100096: Teeth_Up
+    400000: Armature
+    400002: Body
+    400004: Bone
+    400006: Bone.001
+    400008: Bone.002
+    400010: Bone.003
+    400012: Bone.003_end
+    400014: Bone.004
+    400016: Bone.005
+    400018: Bone.005_end
+    400020: Bone.007
+    400022: Bone.009
+    400024: Bone.009_end
+    400026: Bone.011
+    400028: Bone.013
+    400030: Bone.013_end
+    400032: Face
+    400034: Head
+    400036: Left_Cheek
+    400038: Left_Ear
+    400040: Left_Eye_Black
+    400042: Left_Eye_Circle
+    400044: Left_Eye_Down
+    400046: Left_Eye_Ecplise
+    400048: Left_Eye_In
+    400050: Left_Eye_Out
+    400052: Left_Feet
+    400054: Left_Hand
+    400056: Left_Leg
+    400058: Nose
+    400060: P
+    400062: //RootNode
+    400064: Right_Cheek
+    400066: Right_Ear
+    400068: Right_Eye_Black
+    400070: Right_Eye_Circle
+    400072: Right_Eye_Down
+    400074: Right_Eye_Ecplise
+    400076: Right_Eye_In
+    400078: Right_Eye_Out
+    400080: Right_Feet
+    400082: Right_Hand
+    400084: Right_Leg
+    400086: Stomach
+    400088: T
+    400090: Tail
+    400092: Teeth
+    400094: Teeth_Down
+    400096: Teeth_Up
+    2300000: Nose
+    3300000: Nose
+    4300000: Nose
+    4300002: Body
+    4300004: Face
+    4300006: Head
+    4300008: Left_Cheek
+    4300010: Left_Ear
+    4300012: Left_Eye_Black
+    4300014: Left_Eye_Circle
+    4300016: Left_Eye_Down
+    4300018: Left_Eye_Ecplise
+    4300020: Left_Eye_In
+    4300022: Left_Eye_Out
+    4300024: Left_Feet
+    4300026: Left_Hand
+    4300028: Left_Leg
+    4300030: P
+    4300032: Right_Cheek
+    4300034: Right_Ear
+    4300036: Right_Eye_Black
+    4300038: Right_Eye_Circle
+    4300040: Right_Eye_Down
+    4300042: Right_Eye_Ecplise
+    4300044: Right_Eye_In
+    4300046: Right_Eye_Out
+    4300048: Right_Feet
+    4300050: Right_Hand
+    4300052: Right_Leg
+    4300054: Stomach
+    4300056: T
+    4300058: Tail
+    4300060: Teeth
+    4300062: Teeth_Down
+    4300064: Teeth_Up
+    7400000: Armature|hand waving
+    9500000: //RootNode
+    13700000: Body
+    13700002: Face
+    13700004: Head
+    13700006: Left_Cheek
+    13700008: Left_Ear
+    13700010: Left_Eye_Black
+    13700012: Left_Eye_Circle
+    13700014: Left_Eye_Down
+    13700016: Left_Eye_Ecplise
+    13700018: Left_Eye_In
+    13700020: Left_Eye_Out
+    13700022: Left_Feet
+    13700024: Left_Hand
+    13700026: Left_Leg
+    13700028: P
+    13700030: Right_Cheek
+    13700032: Right_Ear
+    13700034: Right_Eye_Black
+    13700036: Right_Eye_Circle
+    13700038: Right_Eye_Down
+    13700040: Right_Eye_Ecplise
+    13700042: Right_Eye_In
+    13700044: Right_Eye_Out
+    13700046: Right_Feet
+    13700048: Right_Hand
+    13700050: Right_Leg
+    13700052: Stomach
+    13700054: T
+    13700056: Tail
+    13700058: Teeth
+    13700060: Teeth_Down
+    13700062: Teeth_Up
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02___Default
+    second: {fileID: 2100000, guid: 8bc9bcc4aa05a564c84a93d204e45c6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03___Default
+    second: {fileID: 2100000, guid: c51534dcf0a71b74fa0093a9e5a9460d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07___Default
+    second: {fileID: 2100000, guid: 95d7137cdec4c4e4bb56a4f1eb1b2c44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Heartdefault
+    second: {fileID: 2100000, guid: 79ce21a6729b21f439c7dc9b11613294, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

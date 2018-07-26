@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="tayle004" size="1.000000 0.666667" />
+    <ImageTarget name="tayle003" size="1.000000 0.666667" />
+    <ImageTarget name="tayle002" size="1.000000 0.666667" />
+    <ImageTarget name="IMG-20171103-WA0001" size="1.000000 0.666667" />
+    <ImageTarget name="maxresdefault" size="1.000000 0.562500" />
+    <ImageTarget name="hqdefault" size="1.000000 0.750000" />
+    <ImageTarget name="Caesars-Palac" size="1.000000 0.659375" />
+    <ImageTarget name="1tay" size="1.000000 0.750000" />
+  </Tracking>
+</QCARConfig>

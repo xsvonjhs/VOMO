@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="frame_pt" size="1.000000 0.562500" />
+    <ImageTarget name="rsz_ptum_frame" size="1.000000 0.562500" />
+    <ImageTarget name="3_15pm" size="1.000000 0.688750" />
+    <ImageTarget name="Ex_Huang_Shi_Gong" size="1.000000 1.403819" />
+    <ImageTarget name="Ex_Xiang_Yu" size="1.000000 1.342123" />
+    <ImageTarget name="Ex_A_Fang_Gong" size="1.000000 0.699125" />
+    <ImageTarget name="Ex_Qi_Yi" size="1.000000 0.705645" />
+    <ImageTarget name="Ex_Zhao_Gao" size="1.000000 1.445011" />
+    <ImageTarget name="Ex_Meng_Yi" size="1.000000 1.434528" />
+    <ImageTarget name="Ex_Qing_Shi_Wang" size="1.000000 0.750000" />
+    <ImageTarget name="Ex_Wang_Jian" size="1.000000 0.671835" />
+    <ImageTarget name="Ex_Fen_Shu" size="1.000000 0.710204" />
+    <ImageTarget name="Ex_Li_Shi" size="1.000000 1.426918" />
+    <ImageTarget name="Ex_Wen_zhi" size="1.000000 0.611498" />
+    <ImageTarget name="Ex_Ju_Lu_Zhi_Zhan" size="1.000000 0.692658" />
+    <ImageTarget name="Ex_Shang_Yang" size="1.000000 1.362637" />
+    <ImageTarget name="Ex_Lv_Bu_Wei" size="1.000000 1.432413" />
+    <ImageTarget name="Ex_Liu_Bang" size="1.000000 1.458824" />
+    <ImageTarget name="Ex_Mian_Fu" size="1.000000 1.135542" />
+    <ImageTarget name="Ex_War_of_six_country" size="1.000000 0.869671" />
+    <ImageTarget name="obike_logo" size="1.000000 0.637857" />
+    <ImageTarget name="PTUM_VOMO" size="1.000000 0.666667" />
+    <ImageTarget name="ptum17_logo" size="15.000000 15.000000" />
+  </Tracking>
+</QCARConfig>
