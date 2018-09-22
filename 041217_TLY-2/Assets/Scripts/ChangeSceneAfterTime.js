@@ -2,7 +2,7 @@
 import UnityEngine.SceneManagement;
 
 var timer : float = 6.0;
-var login = false;
+var login = true;
 
 function Start () {
 	

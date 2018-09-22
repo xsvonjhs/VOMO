@@ -14,7 +14,7 @@ $gender = $_POST["gender"];
 $token = md5($_POST["email"].time());
 $verification = false; //set to "True" to send verification email after registration
 
-if (  ($firstname != "") && ($lastname != "") && ($username != "") && ($password != "") && ($email != "") && ($mobile != "") && ($date != "Date") && ($month != "Month") && ($year != "Year") && ($gender !="0") && (isset($token))  )    
+if (  ($firstname != "") && ($lastname != "") && ($username != "") && ($password != "") && ($mobile != "") && ($date != "Date") && ($month != "Month") && ($year != "Year") && ($gender !="0") && (isset($token))  )    
 {
     $CheckClash = "SELECT * FROM VOMO WHERE mobile='$mobile'";
     $Clashresult = mysqli_query($link, $CheckClash);

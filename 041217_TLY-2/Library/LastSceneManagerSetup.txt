@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scene/2.0_front.unity
+- path: Assets/_scene/5.1 PIC_choose.unity
   isLoaded: 1
   isActive: 1
