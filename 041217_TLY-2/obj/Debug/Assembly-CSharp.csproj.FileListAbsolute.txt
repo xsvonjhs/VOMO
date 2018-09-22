@@ -256,3 +256,7 @@
 /Users/user/Downloads/041217_TLY-2/Temp/bin/Debug/Unity.IvyParser.dll.mdb
 /Users/user/Downloads/041217_TLY-2/obj/Debug/Assembly-CSharp.dll
 /Users/user/Downloads/041217_TLY-2/obj/Debug/Assembly-CSharp.pdb
+/Users/user/VOMO/041217_TLY-2/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache
+/Users/user/VOMO/041217_TLY-2/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+/Users/user/VOMO/041217_TLY-2/obj/Debug/Assembly-CSharp.dll
+/Users/user/VOMO/041217_TLY-2/obj/Debug/Assembly-CSharp.pdb

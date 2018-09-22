@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AccessData : MonoBehaviour {
-
+public class AccessData : MonoBehaviour
+{
     public InputField input;
     public string extract_firstname;
     public string extract_lastname;
     public string extract_username;
     public string extract_password;
     public string extract_mobile;
-    public string extract_email;
+    public string extract_email = "";
 
     public string extract_Date;
     public string extract_Month;
@@ -26,24 +26,29 @@ public class AccessData : MonoBehaviour {
     private int Bday_month;
     private int Bday_year;
 
-
-    public bool allowRegister = false;
-    public GameObject Reg_panel;
     public Text Register_warntext = null;
-    public GameObject Back_to_Reg_button;
+    public Text title;
     public GameObject Login_button;
+    public GameObject Back_to_Reg_button;
+    public GameObject Reg_panel;
+    public GameObject In_Email;
     public static string Server = "vomoapps.000webhostapp.com";
-    public string CreateUserURL = Server+"/InsertUser_internet.php"; 
+    public string CreateUserURL = Server + "/registration.php";
+    private bool verification = true;
 
     public void Awaking()
     {
-       
+
 
     }
     // Use this for initialization
-    void Start () {
-
-	}
+    void Start()
+    {
+        if(verification == true){
+            In_Email.SetActive(true);
+            title.rectTransform.localPosition = new Vector3(-8, 565, 0);
+        }
+    }
 
     public void Gender_Male()
     {
@@ -73,8 +78,11 @@ public class AccessData : MonoBehaviour {
         input = GameObject.Find("In_Mobile").GetComponent<InputField>();
         extract_mobile = input.text;
 
-        input = GameObject.Find("In_Email").GetComponent<InputField>();
-        extract_email = input.text;
+        if (verification == true)
+        {
+            input = GameObject.Find("In_Email").GetComponent<InputField>();
+            extract_email = input.text;
+        }
 
         Bday_date = Birthday_date.GetComponent<Dropdown>().value;
         Bday_month = Birthday_month.GetComponent<Dropdown>().value;
@@ -88,28 +96,12 @@ public class AccessData : MonoBehaviour {
         extract_Month = MonthOptions[Bday_month].text;
         extract_Year = YearOptions[Bday_year].text;
 
-
-
         StartCoroutine(FeedbackFromSite(extract_firstname, extract_lastname, extract_username, extract_password, extract_email, extract_mobile, extract_Date, extract_Month, extract_Year, extract_Gender));
 
     }
 
     IEnumerator FeedbackFromSite(string user_firstname, string user_lastname, string user_username, string user_password, string user_email, string user_mobile, string user_Bdate, string user_Bmonth, string user_Byear, string user_gender)
     {
-
-
-        Debug.Log("You entered: " + extract_firstname);
-        Debug.Log("You entered: " + extract_lastname);
-        Debug.Log("You entered: " + extract_username);
-        Debug.Log("You entered: " + extract_password);
-        Debug.Log("You entered: " + extract_mobile);
-        Debug.Log("You entered: " + extract_email);
-        Debug.Log("You entered: " + extract_Date);
-        Debug.Log("You entered: " + extract_Month);
-        Debug.Log("You entered: " + extract_Year);
-        Debug.Log("You entered: " + extract_Gender);
-
-
         WWWForm form = new WWWForm();
         form.AddField("namapertama", extract_firstname);
         form.AddField("namaakhir", extract_lastname);
@@ -122,11 +114,8 @@ public class AccessData : MonoBehaviour {
         form.AddField("year", extract_Year);
         form.AddField("gender", extract_Gender);
 
-
-
         WWW www = new WWW("https://" + CreateUserURL, form);
 
-        Debug.Log("now wait!");
         yield return www;
         Debug.Log(www.text);
 
@@ -134,29 +123,34 @@ public class AccessData : MonoBehaviour {
         if (www.text == "Duplicate")
         {
             Reg_panel.SetActive(true);
-            Register_warntext.text = "Registration Failed. This username or email might be used.";
-            Back_to_Reg_button.SetActive(true);
-            Login_button.SetActive(false);
+            Reg_panel.transform.GetChild(0).gameObject.SetActive(true);
+            Reg_panel.transform.GetChild(1).gameObject.SetActive(true);
+            Register_warntext.text = "Registration Failed. This phone number might be used.";
+
+        }
+
+        else if (www.text == "Verify")
+        {
+            Reg_panel.SetActive(true);
+            Reg_panel.transform.GetChild(0).gameObject.SetActive(true);
+            Reg_panel.transform.GetChild(2).gameObject.SetActive(true);
+            Register_warntext.text = "Registration succesful. Please check your email for account activation.";
         }
 
         else if (www.text == "Everything OK")
         {
             Reg_panel.SetActive(true);
-            Register_warntext.text = "Registration succesful. Please check your email for account activation.";
-            Login_button.SetActive(true);
-            Back_to_Reg_button.SetActive(false);
+            Reg_panel.transform.GetChild(0).gameObject.SetActive(true);
+            Reg_panel.transform.GetChild(2).gameObject.SetActive(true);
+            Register_warntext.text = "Registration succesful. ";
         }
 
-        else if(www.text == "Incomplete Data")
+        else if (www.text == "Incomplete Data")
         {
             Reg_panel.SetActive(true);
+            Reg_panel.transform.GetChild(0).gameObject.SetActive(true);
+            Reg_panel.transform.GetChild(1).gameObject.SetActive(true);
             Register_warntext.text = "Incomplete data.";
-            Login_button.SetActive(false);
-            Back_to_Reg_button.SetActive(true);
         }
-
-
-
     }
-
 }

@@ -21,9 +21,7 @@ public class changeProfileTexture : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-       // Raw_MainProfilePic.texture = DefaultProfilePic;
         DisplayID = (PlayerPrefs.GetString("userID"));
-       // DisplayID = "32";
         Raw_MainProfilePic =  (RawImage) GO_MainProfilePic.GetComponent<RawImage>();
         PHPRead = "http://builtbee.com/VOMO/uploads/profilepic_info/IDPic" + DisplayID + ".txt";
         StartCoroutine(SendIDtoPHP(DisplayID));
@@ -66,7 +64,7 @@ public class changeProfileTexture : MonoBehaviour {
     }
 
 
-    IEnumerator ChangeProfilePicture( string url)
+    IEnumerator ChangeProfilePicture(string url)
     {
         WWW www = new WWW(url);
         yield return www;

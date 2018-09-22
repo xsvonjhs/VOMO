@@ -87,7 +87,6 @@
     <Compile Include="Assets\display_userID.cs" />
     <Compile Include="Assets\DisplayURLID.cs" />
     <Compile Include="Assets\ExitApp.cs" />
-    <Compile Include="Assets\ID2.cs" />
     <Compile Include="Assets\ImageVideoContactPicker\Example\IVCPickerExample.cs" />
     <Compile Include="Assets\Maskpassword.cs" />
     <Compile Include="Assets\NatCam\Core\Examples\MiniCam\MiniCam.cs" />
@@ -148,12 +147,7 @@
     <Compile Include="Assets\Script\ReplayVideo.cs" />
     <Compile Include="Assets\Scripts\Back.cs" />
     <Compile Include="Assets\Scripts\CreataAcc\AccessData.cs" />
-    <Compile Include="Assets\Scripts\CreataAcc\CreateNewUser.cs" />
-    <Compile Include="Assets\Scripts\CreataAcc\SendDataReg.cs" />
     <Compile Include="Assets\Scripts\Login Script\CheckLogin.cs" />
-    <Compile Include="Assets\Scripts\Login Script\DataInsert.cs" />
-    <Compile Include="Assets\Scripts\Login Script\Login_2.cs" />
-    <Compile Include="Assets\Scripts\Login Script\Takedata.cs" />
     <Compile Include="Assets\Scripts\PlayVideo.cs" />
     <Compile Include="Assets\Scripts\SceneOrientation.cs" />
     <Compile Include="Assets\Scripts\ShareFB\facebookShare.cs" />
@@ -210,16 +204,16 @@
     <None Include="Assets\AndroidUltimatePlugin\AndroidUltimatePlugin\Features.txt" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/user/Downloads/041217_TLY-2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/user/VOMO/041217_TLY-2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/user/Downloads/041217_TLY-2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/user/VOMO/041217_TLY-2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/user/Downloads/041217_TLY-2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/user/VOMO/041217_TLY-2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/user/Downloads/041217_TLY-2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/user/VOMO/041217_TLY-2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -417,10 +411,10 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="ImageVideoContactPicker">
-      <HintPath>/Users/user/Downloads/041217_TLY-2/Assets/Plugins/ImageVideoContactPicker.dll</HintPath>
+      <HintPath>/Users/user/VOMO/041217_TLY-2/Assets/Plugins/ImageVideoContactPicker.dll</HintPath>
     </Reference>
     <Reference Include="zxing.unity">
-      <HintPath>/Users/user/Downloads/041217_TLY-2/Assets/NatCam/Extended/Plugins/Dependencies/ZXing.NET/zxing.unity.dll</HintPath>
+      <HintPath>/Users/user/VOMO/041217_TLY-2/Assets/NatCam/Extended/Plugins/Dependencies/ZXing.NET/zxing.unity.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/user/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

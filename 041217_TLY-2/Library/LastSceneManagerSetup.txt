@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scene/1.0 Prompt_login.unity
+- path: Assets/_scene/2.0_front.unity
   isLoaded: 1
   isActive: 1

@@ -24,8 +24,8 @@ public class CheckLogin : MonoBehaviour
     public string send_ID;
     public string FrameCode;
 
-    string LoginCheckURL = AccessData.Server+"/LoginScript_internet.php";
-    string PHPFrameUrl = AccessData.Server+"/return_framelist.php";
+    string LoginCheckURL = AccessData.Server+"/login.php";
+    string PHPFrameUrl = AccessData.Server+"/returnFramelist.php";
 
     // Use this for initialization
     void Start()
@@ -69,20 +69,15 @@ public class CheckLogin : MonoBehaviour
         WWW www = new WWW(LoginCheckURL, form);
 
         yield return www;
-
-        Debug.Log(www.text);
         string respond = www.text;
         respond_code = respond.Split(';');
-        Debug.Log(respond_code[0]);
-        Debug.Log(respond_code[1]);
-
-
 
         if (respond_code[0] == "200") // 200 = login successful
         {
             send_ID = respond_code[1];
             yield return StartCoroutine(ReturnFramePHP(respond_code[1]));
             PlayerPrefs.SetString("userID", respond_code[1]);
+            Debug.Log(FrameCode);
             PlayerPrefs.SetString("Frame", FrameCode);
             BinaryFormatter binaryFormatter = new BinaryFormatter();
             FileStream file = File.OpenWrite(Application.persistentDataPath + "/playerinfo.dat");
@@ -136,7 +131,6 @@ public class CheckLogin : MonoBehaviour
 
         yield return sendIDtofile;
 
-        Debug.Log(sendIDtofile.text);
         FrameCode = sendIDtofile.text;
     }
 }

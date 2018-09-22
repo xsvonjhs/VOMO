@@ -6,7 +6,7 @@ using System.Net;
 public class ReturnFrameList : MonoBehaviour {
 
     private string DisplayID;
-    private string PHPFrameUrl = AccessData.Server+"/return_framelist.php";
+    private string PHPFrameUrl = AccessData.Server+"/returnFramelist.php";
     public string[] FrameArr;
     private string FrameCode;
 
@@ -26,7 +26,7 @@ public class ReturnFrameList : MonoBehaviour {
         //StartCoroutine(ReturnFramePHP(DisplayID));
         FrameCode = PlayerPrefs.GetString("Frame");
         FrameArr = FrameCode.Split(';');
-        //Debug.Log(FrameCode);
+        Debug.Log(FrameCode);
 
         //Debug.Log(FrameArr[0]);
         //Debug.Log(FrameArr[1]);

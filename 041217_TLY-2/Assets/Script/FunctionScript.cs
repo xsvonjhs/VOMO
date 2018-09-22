@@ -268,7 +268,7 @@ public class FunctionScript : MonoBehaviour
     public void ChangeToScene(string sceneToChangeTo)
     {
 
-        Application.LoadLevel(sceneToChangeTo);
+        SceneManager.LoadScene(sceneToChangeTo);
     }
 
 
