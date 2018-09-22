@@ -34,7 +34,7 @@ public class AccessData : MonoBehaviour
     public GameObject In_Email;
     public static string Server = "vomoapps.000webhostapp.com";
     public string CreateUserURL = Server + "/registration.php";
-    private bool verification = true;
+    private bool verification = false;
 
     public void Awaking()
     {

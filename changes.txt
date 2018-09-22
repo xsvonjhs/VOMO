@@ -18,8 +18,26 @@ Modification:
 
 4. Send activation email to user once registered (no time limit)
 
-5. Unable to register with exisiting email/username
+5. Unable to register with existing email/username
 -------------
+
+Update (22/9/2018) (SS):
+
+Modification:
+
+1. exportData.php - export database to csv
+
+2. Login with email - change verification to true in registration.php, login.php and AccessData.cs
+
+3. Skip login - change login to true in ChangeSceneAfterTime.js
+
+4. Change message box for registration scene
+
+5. Hide password when keying in
+
+6. Phone number as primary key for each user
+
+
 
 
 

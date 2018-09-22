@@ -21,7 +21,7 @@ $stmt->close();
 if(mysqli_num_rows($result) > 0){
 //show data for each row
     while($row = mysqli_fetch_assoc($result)){
-        if($validation){
+        if($verification){
             if ($row['password'] == $check_password && $row['status'] == 'ACTIVE'){
                 echo "200;";                  
                 $sql = "SELECT id FROM VOMO WHERE username = '$check_username'";
