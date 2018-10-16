@@ -1,6 +1,10 @@
 ﻿<Properties StartupConfiguration="{CE93F165-886E-12EB-7AA2-017007DA69F1}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeSceneAfterTime.js">
+    <Files>
+      <File FileName="Assets/Scripts/ChangeSceneAfterTime.js" Line="23" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

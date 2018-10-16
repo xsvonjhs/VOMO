@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vomo 2.0", "Assembly-CSharp.csproj", "{0CDC7C78-84DB-254A-DB45-8F9AE021E2D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vomo 2.0", "Assembly-CSharp-Editor.csproj", "{0E156C52-77B4-F2A8-9175-19AAF8317DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CDC7C78-84DB-254A-DB45-8F9AE021E2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDC7C78-84DB-254A-DB45-8F9AE021E2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDC7C78-84DB-254A-DB45-8F9AE021E2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDC7C78-84DB-254A-DB45-8F9AE021E2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E156C52-77B4-F2A8-9175-19AAF8317DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E156C52-77B4-F2A8-9175-19AAF8317DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E156C52-77B4-F2A8-9175-19AAF8317DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E156C52-77B4-F2A8-9175-19AAF8317DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
